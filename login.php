@@ -44,7 +44,7 @@
                                     <form class="user">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user" id="email_field"
-                                                aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                                                placeholder="Enter Email Address...">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
@@ -57,7 +57,7 @@
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <a href="" class="btn btn-primary btn-user btn-block" onclick="login()">
+                                        <a href="demo.php" class="btn btn-primary btn-user btn-block" onclick="login()">
                                             Login
                                         </a>
                                         <hr>
@@ -90,19 +90,13 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
-
-
-
     <script src="js/index.js"></script>
 
 
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
 
     <script>
     // Your web app's Firebase configuration
@@ -114,14 +108,13 @@
         projectId: "eatitv2-1905",
         storageBucket: "eatitv2-1905.appspot.com",
         messagingSenderId: "946239078871",
-        appId: "1:946239078871:web:06af24e4b4f53c13324b92",
-        measurementId: "G-RFPYP5Z53Y"
+        appId: "1:946239078871:web:c41cdbd1a42ae0c4324b92",
+        measurementId: "G-WSCEPRT7X0"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
     </script>
-
 </body>
 
 </html>
